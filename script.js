@@ -1,2 +1,2 @@
 print("Hello")
-print("Это ветка Dev")
+print("Еще один новый коммит в ветке Dev")
