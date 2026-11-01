@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мой любимый фильм Интерстеллар</title>
+</head>
+<body>
+
+  <header>
+    <h1>Интерстеллар</h1>
+    <img src="interstellar.jpg" alt="Постер фильма Интерстеллар">
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Описание</h2>
+      <p>Научно фантастический фильм Кристофера Нолана о команде исследователей, которая отправляется сквозь червоточину в поисках нового дома для человечества.</p>
+    </section>
+
+    <section>
+      <h2>Факты</h2>
+      <ul>
+        <li>Режиссёр: Кристофер Нолан</li>
+        <li>Год: 2014</li>
+        <li>Жанр: научная фантастика</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Ссылка</h2>
+      <p><a href="https://www.imdb.com/title/tt0816692/">IMDb</a></p>
+    </section>
+
+    <section>
+      <h2>Оцените от 1 до 10</h2>
+      <form action="/rate" method="post">
+        <p>
+          <label for="rating">Оценка:</label>
+          <select id="rating" name="rating" required>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select>
+        </p>
+        <p>
+          <button type="submit">Отправить</button>
+        </p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>2026</p>
+  </footer>
+
+</body>
+</html>
